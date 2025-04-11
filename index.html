@@ -3,68 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Avesh Kharani | Portfolio</title>
+  <title>Avesh Kharani Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="favicon.ico">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <!-- Header Section -->
   <header>
     <h1>Avesh Kharani</h1>
-    <p>Data Science Enthusiast | SQL • ML • Deep Learning</p>
-    <div class="social">
-      <a href="https://github.com/aveshkh1" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/in/aveshkh1" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:avesh@example.com"><i class="fas fa-envelope"></i></a>
+    <div class="contact-links">
+      <a href="https://github.com/aveshkh1" target="_blank"><img src="assets/logos/github.png" alt="GitHub"></a>
+      <a href="https://www.linkedin.com/in/aveshkharani7483" target="_blank"><img src="assets/logos/linkedin.png" alt="LinkedIn"></a>
+      <a href="mailto:aveshkharni35@gmail.com"><img src="assets/logos/email.png" alt="Email"></a>
     </div>
   </header>
 
-  <section id="about">
-    <h2>✨ About Me</h2>
-    <p>I am a data science enthusiast with a passion for solving real-world problems using machine learning and analytics. I've completed various projects and earned certifications that strengthened my skills in Python, SQL, and deep learning.</p>
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I'm an aspiring Data Scientist skilled in Python, SQL, and Machine Learning. I love building data-driven solutions to real-world problems. I have hands-on experience from academic projects, internships, and online certifications.</p>
   </section>
 
-  <section id="tools">
-    <h2>⚖️ Tools & Technologies</h2>
-    <div class="tools">
-      <img src="python.png" alt="Python">
-      <img src="tensorflow.png" alt="TensorFlow">
-      <img src="sklearn.png" alt="Scikit-Learn">
-      <img src="pandas.png" alt="Pandas">
-      <img src="sql.png" alt="SQL">
+  <!-- Tools Section -->
+  <section class="tools">
+    <h2>Tools I Work With</h2>
+    <div class="tool-icons">
+      <img src="assets/logos/python.png" alt="Python">
+      <img src="assets/logos/tensorflow.png" alt="TensorFlow">
+      <img src="assets/logos/scikit-learn.png" alt="Scikit-Learn">
+      <img src="assets/logos/pandas.png" alt="Pandas">
+      <img src="assets/logos/numpy.png" alt="NumPy">
+      <img src="assets/logos/sql.png" alt="SQL">
     </div>
   </section>
 
-  <section id="skills">
-    <h2>🔹 Technical Stack</h2>
-    <div class="bar"><span style="width: 90%">Python - 90%</span></div>
-    <div class="bar"><span style="width: 85%">Scikit-learn - 85%</span></div>
-    <div class="bar"><span style="width: 80%">SQL - 80%</span></div>
-    <div class="bar"><span style="width: 75%">TensorFlow - 75%</span></div>
-    <div class="bar"><span style="width: 85%">Pandas - 85%</span></div>
+  <!-- Technical Skills Progress Bars -->
+  <section class="skills">
+    <h2>Technical Stack</h2>
+    <div class="skill"><label>Python</label><progress value="90" max="100"></progress></div>
+    <div class="skill"><label>Scikit-learn</label><progress value="85" max="100"></progress></div>
+    <div class="skill"><label>SQL</label><progress value="80" max="100"></progress></div>
+    <div class="skill"><label>TensorFlow</label><progress value="75" max="100"></progress></div>
+    <div class="skill"><label>NumPy</label><progress value="85" max="100"></progress></div>
+    <div class="skill"><label>Pandas</label><progress value="88" max="100"></progress></div>
   </section>
 
-  <section id="projects">
-    <h2>💼 Projects</h2>
+  <!-- Projects Section -->
+  <section class="projects">
+    <h2>Projects</h2>
     <ul>
-      <li><strong>Battery RUL Prediction:</strong> Machine learning pipeline to estimate Remaining Useful Life using real-world battery data.</li>
-      <li><strong>Disease Prediction App:</strong> Web app to predict Heart Disease, Diabetes, Parkinson's using Streamlit.</li>
-      <li><strong>News Classifier:</strong> SQL + Python project to classify news from RSS feeds using text classification.</li>
+      <li><strong>Health Diagnosis System:</strong> ML models to detect Heart Disease, Diabetes, and Parkinson's with Streamlit deployment.</li>
+      <li><strong>Fraudulent Transaction Detection:</strong> Random Forest + SMOTE handling for real-time fraud classification with 92% accuracy.</li>
+      <li><strong>Battery RUL Prediction:</strong> Regression-based prediction of lithium-ion battery life with a Flask frontend.</li>
     </ul>
   </section>
 
-  <section id="certificates">
-    <h2>🎓 Certificates</h2>
-    <ul>
-      <li>Kaggle: Intro to Deep Learning</li>
-      <li>IBM: Machine Learning with Python</li>
-      <li>Capgemini & ICT Academy: Data Analytics Internship</li>
-      <li>SQL Basics by HackerRank (3-Star)</li>
-    </ul>
+  <!-- Certification Section -->
+  <section class="certifications">
+    <h2>Certifications</h2>
+    <div class="cert-grid">
+      <img src="assets/images/Avesh kharani - Intro to Deep Learning.jpg" alt="Kaggle Certificate">
+      <img src="assets/images/python_basic certificate_page-0001.jpg" alt="Python Certificate">
+      <img src="assets/images/sql_basic certificate (1)_page-0001.jpg" alt="SQL Certificate">
+      <img src="assets/images/capgmini course.jpg" alt="Capgemini">
+      <img src="assets/images/citizen Data Science.jpg" alt="Infosys Certificate">
+      <img src="assets/images/udemy course.jpg" alt="Udemy Certificate">
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Avesh Kharani. Built with HTML, CSS & ❤️</p>
+    <p>&copy; 2025 Avesh Kharani. All rights reserved.</p>
   </footer>
 </body>
 </html>
