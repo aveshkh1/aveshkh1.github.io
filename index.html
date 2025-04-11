@@ -1,73 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Avesh Kharani Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avesh Kharani | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <!-- Header Section -->
   <header>
-    <h1>Avesh Kharani</h1>
-    <div class="contact-links">
-      <a href="https://github.com/aveshkh1" target="_blank"><img src="assets/logos/github.png" alt="GitHub"></a>
-      <a href="https://www.linkedin.com/in/aveshkharani7483" target="_blank"><img src="assets/logos/linkedin.png" alt="LinkedIn"></a>
-      <a href="mailto:aveshkharni35@gmail.com"><img src="assets/logos/email.png" alt="Email"></a>
+    <div class="container header-content">
+      <h1>Avesh Kharani</h1>
+      <div class="contact">
+        <a href="mailto:aveshkharani12@gmail.com"><img src="assets/logos/email.png" alt="Email" /></a>
+        <a href="https://github.com/AveshKharani" target="_blank"><img src="assets/logos/github.png" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/avesh-kharani" target="_blank"><img src="assets/logos/linkedin.png" alt="LinkedIn" /></a>
+      </div>
     </div>
   </header>
 
-  <!-- About Section -->
   <section class="about">
     <h2>About Me</h2>
-    <p>I'm an aspiring Data Scientist skilled in Python, SQL, and Machine Learning. I love building data-driven solutions to real-world problems. I have hands-on experience from academic projects, internships, and online certifications.</p>
+    <p>
+      A passionate Data Science enthusiast with hands-on experience in machine learning, deep learning, SQL, and data analysis. I love turning data into actionable insights and solving real-world problems.
+    </p>
   </section>
 
-  <!-- Tools Section -->
   <section class="tools">
     <h2>Tools I Work With</h2>
-    <div class="tool-icons">
-      <img src="assets/logos/python.png" alt="Python">
-      <img src="assets/logos/tensorflow.png" alt="TensorFlow">
-      <img src="assets/logos/scikit-learn.png" alt="Scikit-Learn">
-      <img src="assets/logos/pandas.png" alt="Pandas">
-      <img src="assets/logos/numpy.png" alt="NumPy">
-      <img src="assets/logos/sql.png" alt="SQL">
+    <div class="tool-logos">
+      <img src="assets/logos/python.png" alt="Python" />
+      <img src="assets/logos/tensorflow.png" alt="TensorFlow" />
+      <img src="assets/logos/sklearn.png" alt="Scikit-learn" />
+      <img src="assets/logos/pandas.png" alt="Pandas" />
+      <img src="assets/logos/sql.png" alt="SQL" />
     </div>
   </section>
 
-  <!-- Technical Skills Progress Bars -->
-  <section class="skills">
+  <section class="stack">
     <h2>Technical Stack</h2>
-    <div class="skill"><label>Python</label><progress value="90" max="100"></progress></div>
-    <div class="skill"><label>Scikit-learn</label><progress value="85" max="100"></progress></div>
-    <div class="skill"><label>SQL</label><progress value="80" max="100"></progress></div>
-    <div class="skill"><label>TensorFlow</label><progress value="75" max="100"></progress></div>
-    <div class="skill"><label>NumPy</label><progress value="85" max="100"></progress></div>
-    <div class="skill"><label>Pandas</label><progress value="88" max="100"></progress></div>
+    <div class="skill">
+      <label>Python</label>
+      <div class="bar"><div class="fill" style="width: 90%"></div></div>
+    </div>
+    <div class="skill">
+      <label>Scikit-learn</label>
+      <div class="bar"><div class="fill" style="width: 85%"></div></div>
+    </div>
+    <div class="skill">
+      <label>SQL</label>
+      <div class="bar"><div class="fill" style="width: 80%"></div></div>
+    </div>
+    <div class="skill">
+      <label>TensorFlow</label>
+      <div class="bar"><div class="fill" style="width: 75%"></div></div>
+    </div>
+    <div class="skill">
+      <label>Pandas</label>
+      <div class="bar"><div class="fill" style="width: 85%"></div></div>
+    </div>
   </section>
 
-  <!-- Projects Section -->
   <section class="projects">
     <h2>Projects</h2>
     <ul>
-      <li><strong>Health Diagnosis System:</strong> ML models to detect Heart Disease, Diabetes, and Parkinson's with Streamlit deployment.</li>
-      <li><strong>Fraudulent Transaction Detection:</strong> Random Forest + SMOTE handling for real-time fraud classification with 92% accuracy.</li>
-      <li><strong>Battery RUL Prediction:</strong> Regression-based prediction of lithium-ion battery life with a Flask frontend.</li>
+      <li><strong>Battery RUL Prediction:</strong> Used multiple ML models to predict battery Remaining Useful Life from real-world data.</li>
+      <li><strong>Multi-Disease Prediction:</strong> Created a web app to predict diseases like Diabetes, Heart Disease, and Parkinson using ML.</li>
+      <li><strong>Skin Cancer Detection:</strong> Built a deep learning model to classify benign and malignant skin lesions.</li>
+      <li><strong>News Categorizer:</strong> Developed a tool to fetch and classify RSS feed news articles using NLP & SQL.</li>
     </ul>
   </section>
 
-  <!-- Certification Section -->
-  <section class="certifications">
-    <h2>Certifications</h2>
+  <section class="certificates">
+    <h2>Certificates</h2>
     <div class="cert-grid">
-      <img src="assets/images/Avesh kharani - Intro to Deep Learning.jpg" alt="Kaggle Certificate">
-      <img src="assets/images/python_basic certificate_page-0001.jpg" alt="Python Certificate">
-      <img src="assets/images/sql_basic certificate (1)_page-0001.jpg" alt="SQL Certificate">
-      <img src="assets/images/capgmini course.jpg" alt="Capgemini">
-      <img src="assets/images/citizen Data Science.jpg" alt="Infosys Certificate">
-      <img src="assets/images/udemy course.jpg" alt="Udemy Certificate">
+      <img src="assets/images/Avesh kharani - Intro to Deep Learning.jpg" alt="Deep Learning" />
+      <img src="assets/images/python_basic certificate_page-0001.jpg" alt="Python Basic" />
+      <img src="assets/images/sql_basic certificate (1)_page-0001.jpg" alt="SQL Basic" />
+      <img src="assets/images/capgmini course.jpg" alt="Capgemini Course" />
+      <img src="assets/images/citizen Data Science.jpg" alt="Citizen Data Science" />
+      <img src="assets/images/udemy course.jpg" alt="Udemy Course" />
     </div>
   </section>
 
